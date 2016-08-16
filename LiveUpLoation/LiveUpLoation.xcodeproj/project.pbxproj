@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCCD21121D62FF420006CD9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD21111D62FF420006CD9D /* AppDelegate.swift */; };
+		BCCD21141D62FF420006CD9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD21131D62FF420006CD9D /* ViewController.swift */; };
+		BCCD21171D62FF420006CD9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCD21151D62FF420006CD9D /* Main.storyboard */; };
+		BCCD21191D62FF420006CD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCD21181D62FF420006CD9D /* Assets.xcassets */; };
+		BCCD211C1D62FF420006CD9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCD211A1D62FF420006CD9D /* LaunchScreen.storyboard */; };
+		BCCD21271D62FF430006CD9D /* LiveUpLoationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD21261D62FF430006CD9D /* LiveUpLoationTests.swift */; };
+		BCCD21321D62FF430006CD9D /* LiveUpLoationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD21311D62FF430006CD9D /* LiveUpLoationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCD21231D62FF430006CD9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCD21061D62FF420006CD9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCD210D1D62FF420006CD9D;
+			remoteInfo = LiveUpLoation;
+		};
+		BCCD212E1D62FF430006CD9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCD21061D62FF420006CD9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCD210D1D62FF420006CD9D;
+			remoteInfo = LiveUpLoation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCCD210E1D62FF420006CD9D /* LiveUpLoation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveUpLoation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCD21111D62FF420006CD9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCCD21131D62FF420006CD9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCCD21161D62FF420006CD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCCD21181D62FF420006CD9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCCD211B1D62FF420006CD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCCD211D1D62FF420006CD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCD21221D62FF430006CD9D /* LiveUpLoationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveUpLoationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCD21261D62FF430006CD9D /* LiveUpLoationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveUpLoationTests.swift; sourceTree = "<group>"; };
+		BCCD21281D62FF430006CD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCD212D1D62FF430006CD9D /* LiveUpLoationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveUpLoationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCD21311D62FF430006CD9D /* LiveUpLoationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveUpLoationUITests.swift; sourceTree = "<group>"; };
+		BCCD21331D62FF430006CD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCD210B1D62FF420006CD9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCD211F1D62FF430006CD9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCD212A1D62FF430006CD9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCCD21051D62FF420006CD9D = {
+			isa = PBXGroup;
+			children = (
+				BCCD21101D62FF420006CD9D /* LiveUpLoation */,
+				BCCD21251D62FF430006CD9D /* LiveUpLoationTests */,
+				BCCD21301D62FF430006CD9D /* LiveUpLoationUITests */,
+				BCCD210F1D62FF420006CD9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCD210F1D62FF420006CD9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCD210E1D62FF420006CD9D /* LiveUpLoation.app */,
+				BCCD21221D62FF430006CD9D /* LiveUpLoationTests.xctest */,
+				BCCD212D1D62FF430006CD9D /* LiveUpLoationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCD21101D62FF420006CD9D /* LiveUpLoation */ = {
+			isa = PBXGroup;
+			children = (
+				BCCD21111D62FF420006CD9D /* AppDelegate.swift */,
+				BCCD21131D62FF420006CD9D /* ViewController.swift */,
+				BCCD21151D62FF420006CD9D /* Main.storyboard */,
+				BCCD21181D62FF420006CD9D /* Assets.xcassets */,
+				BCCD211A1D62FF420006CD9D /* LaunchScreen.storyboard */,
+				BCCD211D1D62FF420006CD9D /* Info.plist */,
+			);
+			path = LiveUpLoation;
+			sourceTree = "<group>";
+		};
+		BCCD21251D62FF430006CD9D /* LiveUpLoationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCD21261D62FF430006CD9D /* LiveUpLoationTests.swift */,
+				BCCD21281D62FF430006CD9D /* Info.plist */,
+			);
+			path = LiveUpLoationTests;
+			sourceTree = "<group>";
+		};
+		BCCD21301D62FF430006CD9D /* LiveUpLoationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCD21311D62FF430006CD9D /* LiveUpLoationUITests.swift */,
+				BCCD21331D62FF430006CD9D /* Info.plist */,
+			);
+			path = LiveUpLoationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCD210D1D62FF420006CD9D /* LiveUpLoation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCD21361D62FF430006CD9D /* Build configuration list for PBXNativeTarget "LiveUpLoation" */;
+			buildPhases = (
+				BCCD210A1D62FF420006CD9D /* Sources */,
+				BCCD210B1D62FF420006CD9D /* Frameworks */,
+				BCCD210C1D62FF420006CD9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveUpLoation;
+			productName = LiveUpLoation;
+			productReference = BCCD210E1D62FF420006CD9D /* LiveUpLoation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCD21211D62FF430006CD9D /* LiveUpLoationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCD21391D62FF430006CD9D /* Build configuration list for PBXNativeTarget "LiveUpLoationTests" */;
+			buildPhases = (
+				BCCD211E1D62FF430006CD9D /* Sources */,
+				BCCD211F1D62FF430006CD9D /* Frameworks */,
+				BCCD21201D62FF430006CD9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCD21241D62FF430006CD9D /* PBXTargetDependency */,
+			);
+			name = LiveUpLoationTests;
+			productName = LiveUpLoationTests;
+			productReference = BCCD21221D62FF430006CD9D /* LiveUpLoationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCCD212C1D62FF430006CD9D /* LiveUpLoationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCD213C1D62FF430006CD9D /* Build configuration list for PBXNativeTarget "LiveUpLoationUITests" */;
+			buildPhases = (
+				BCCD21291D62FF430006CD9D /* Sources */,
+				BCCD212A1D62FF430006CD9D /* Frameworks */,
+				BCCD212B1D62FF430006CD9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCD212F1D62FF430006CD9D /* PBXTargetDependency */,
+			);
+			name = LiveUpLoationUITests;
+			productName = LiveUpLoationUITests;
+			productReference = BCCD212D1D62FF430006CD9D /* LiveUpLoationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCD21061D62FF420006CD9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HeartOfCarefreeHeaven;
+				TargetAttributes = {
+					BCCD210D1D62FF420006CD9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BCCD21211D62FF430006CD9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCCD210D1D62FF420006CD9D;
+					};
+					BCCD212C1D62FF430006CD9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCCD210D1D62FF420006CD9D;
+					};
+				};
+			};
+			buildConfigurationList = BCCD21091D62FF420006CD9D /* Build configuration list for PBXProject "LiveUpLoation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCD21051D62FF420006CD9D;
+			productRefGroup = BCCD210F1D62FF420006CD9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCD210D1D62FF420006CD9D /* LiveUpLoation */,
+				BCCD21211D62FF430006CD9D /* LiveUpLoationTests */,
+				BCCD212C1D62FF430006CD9D /* LiveUpLoationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCD210C1D62FF420006CD9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCD211C1D62FF420006CD9D /* LaunchScreen.storyboard in Resources */,
+				BCCD21191D62FF420006CD9D /* Assets.xcassets in Resources */,
+				BCCD21171D62FF420006CD9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCD21201D62FF430006CD9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCD212B1D62FF430006CD9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCD210A1D62FF420006CD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCD21141D62FF420006CD9D /* ViewController.swift in Sources */,
+				BCCD21121D62FF420006CD9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCD211E1D62FF430006CD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCD21271D62FF430006CD9D /* LiveUpLoationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCD21291D62FF430006CD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCD21321D62FF430006CD9D /* LiveUpLoationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCD21241D62FF430006CD9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCD210D1D62FF420006CD9D /* LiveUpLoation */;
+			targetProxy = BCCD21231D62FF430006CD9D /* PBXContainerItemProxy */;
+		};
+		BCCD212F1D62FF430006CD9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCD210D1D62FF420006CD9D /* LiveUpLoation */;
+			targetProxy = BCCD212E1D62FF430006CD9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCCD21151D62FF420006CD9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCD21161D62FF420006CD9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCCD211A1D62FF420006CD9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCD211B1D62FF420006CD9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCD21341D62FF430006CD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCCD21351D62FF430006CD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCD21371D62FF430006CD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveUpLoation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1606.LiveUpLoation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCCD21381D62FF430006CD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveUpLoation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1606.LiveUpLoation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCCD213A1D62FF430006CD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveUpLoationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1606.LiveUpLoationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveUpLoation.app/LiveUpLoation";
+			};
+			name = Debug;
+		};
+		BCCD213B1D62FF430006CD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveUpLoationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1606.LiveUpLoationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveUpLoation.app/LiveUpLoation";
+			};
+			name = Release;
+		};
+		BCCD213D1D62FF430006CD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveUpLoationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1606.LiveUpLoationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveUpLoation;
+			};
+			name = Debug;
+		};
+		BCCD213E1D62FF430006CD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveUpLoationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1606.LiveUpLoationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveUpLoation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCD21091D62FF420006CD9D /* Build configuration list for PBXProject "LiveUpLoation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCD21341D62FF430006CD9D /* Debug */,
+				BCCD21351D62FF430006CD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCD21361D62FF430006CD9D /* Build configuration list for PBXNativeTarget "LiveUpLoation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCD21371D62FF430006CD9D /* Debug */,
+				BCCD21381D62FF430006CD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCCD21391D62FF430006CD9D /* Build configuration list for PBXNativeTarget "LiveUpLoationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCD213A1D62FF430006CD9D /* Debug */,
+				BCCD213B1D62FF430006CD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCCD213C1D62FF430006CD9D /* Build configuration list for PBXNativeTarget "LiveUpLoationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCD213D1D62FF430006CD9D /* Debug */,
+				BCCD213E1D62FF430006CD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCD21061D62FF420006CD9D /* Project object */;
+}
